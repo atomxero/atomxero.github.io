@@ -1,0 +1,87 @@
+/* Your Website Styles */
+
+
+html{ 
+  background: url("../img/beach-campfire-night.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1{
+  font-family: 'Lobster', cursive;
+  color: #fa3e3e;
+  text-align: center;
+  font-size: 48px;
+}
+
+h4{
+  font-family: 'Lato', sans-serif;
+  color: #f8f8d6;
+  text-align: center;
+}
+/* Gallery Stying */
+
+
+p {
+  color: #f8f8d6;
+}
+
+p:hover{
+  color: #fa3e3e;
+  
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+
+}
+.gallery .item {
+  height: 960px;
+  overflow: hidden;
+  text-align: center;
+
+
+ 
+}
+.gallery .controls {
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img {
+  border: 5px solid #f8f8d6;
+  border-radius: 60px;
+}
+
+.gallery .controls img:hover {
+  border: 5px solid #fa3e3e;
+  border-radius: 60px;
+}
+
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  color: #fa3e3e;
+  text-decoration: none;
+ 
+}
+
+
+
+/* Show Grid */
+
+
+
+
+

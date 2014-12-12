@@ -1,0 +1,91 @@
+/* Your Website Styles */
+
+html { 
+  background: url("../img/beach-campfire-night.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #F8F8D6;
+}
+
+
+
+h1{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 4em;
+	color: #FA3E3E;
+
+}
+
+h2{
+	text-align: center;
+}
+
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+	height: 600px;
+	width: 500px;
+	border-radius: 50px;
+	border: 5px solid #f8f8d6;}
+
+nav li{
+	text-align: center;
+	list-style: none;
+	
+	margin: 50px 50px 0 10px;
+}
+
+
+
+nav a:link, 
+nav a:visited {
+	color: #F8F8D6;
+	padding: 10px 10px 10px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover, 
+nav a:active {
+	color: #FA3E3E
+}
+
+
+
+.container {
+	
+	margin: 0 auto;
+	width: 1000px;
+
+}
+
+section {
+	
+	float: left;
+	margin: 0 20px 20px 0;
+	width: 450px;
+}
+
+
+
+footer {
+	bottom: 100px;
+	float: right;
+	padding-top: 500px;
+
+
+}
+
+/* Show Grid */
